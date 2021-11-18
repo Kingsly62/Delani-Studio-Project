@@ -29,6 +29,7 @@ text-align: center;
 #studio p {
  text-align: center;
  color: white;
+ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #mouse{
@@ -48,4 +49,34 @@ text-align: center;
     text-align: center;
     align-content: center;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Section2{
+    padding: 50px;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.section3{
+background-image: url(./background/s_image.jpg);
+padding: 60px;
+margin-left: 2vw;
+margin-right: 2vw;
+}
+
+#header1{
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#para1{
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
