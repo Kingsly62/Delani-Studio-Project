@@ -1,7 +1,39 @@
 .section1{
-    padding: 200px;
+    padding: 80px;
     background-image: url(./background/h_img.jpg);
     margin-left: 2vw;
     margin-right: 2vw;
+    border: none;
 
+}
+
+#logobrand{
+align-items: center;
+align-content: center;
+display: block;
+text-align: center;
+
+}
+
+#studio h1{
+color: white;
+align-content: center;
+text-align: center;
+}
+
+#studio h2{
+  color: whitesmoke;
+  text-align: center;  
+}
+
+#studio p {
+    text-align: center;
+    color: white;
+}
+
+#mouse{
+    display: block;
+    align-content: center;
+    text-align: center;
+    margin-top: 50px;
 }
