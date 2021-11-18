@@ -27,13 +27,25 @@ text-align: center;
 }
 
 #studio p {
-    text-align: center;
-    color: white;
+ text-align: center;
+ color: white;
 }
 
 #mouse{
-    display: block;
-    align-content: center;
+ display: block;
+ align-content: center;
+ text-align: center;
+ margin-top: 50px;
+}
+
+#header{
     text-align: center;
-    margin-top: 50px;
+    align-items: center;
+    color: black;
+}
+
+#para p{
+    text-align: center;
+    align-content: center;
+    color: black;
 }
