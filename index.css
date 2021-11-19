@@ -89,6 +89,8 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-style: normal;
 font-size: medium;
+max-height: 30vh;
+
 }
 
 #column{
