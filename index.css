@@ -59,7 +59,7 @@ text-align: center;
 }
 
 .section3{
-background-image: url(/background/s_image.jpg);
+background-image: url(./background/s_image.jpg);
 padding: 60px;
 }
 
@@ -112,4 +112,15 @@ max-height: 30vh;
 #port2{
     padding: 5px;
     word-spacing: 1px;
+}
+
+#contact h1{
+align-content: center;
+text-align: center;
+color: white;
+}
+
+.contact{
+    background-image: url(./background/c_image.jpg);
+    padding: 20%;
 }
