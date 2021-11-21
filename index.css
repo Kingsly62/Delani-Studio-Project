@@ -1,6 +1,6 @@
 .section1{
     padding: 80px;
-    background-image: url(./background/h_img.jpg);
+    background-image: url('./background/h_img.jpg');
     margin-left: 2vw;
     margin-right: 2vw;
     border: none;
@@ -59,9 +59,27 @@ text-align: center;
 }
 
 .section3{
-background-image: url(./background/s_image.jpg);
+background-image: url('./background/s_image.jpg');
 padding: 60px;
 }
+
+.section4::after{
+    padding: 40px !important;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#column{
+float: left;
+padding: 10px;
+width: 32%;
+}
+
+#column h2{
+    font-size: smaller;
+}
+
 
 #header1{
     align-content: center;
@@ -82,26 +100,12 @@ align-content: center;
 text-align: center;
 color: black;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.Service{
-    
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-style: normal;
 font-size: medium;
-max-height: 30vh;
-
-}
-
-#column{
-    float:left;
-    padding: 150px;
-
 }
 
 #port1{
     display: flex;
-    padding: 2px;
+    background-position: center;
 }
 
 #portfolio{
@@ -111,16 +115,45 @@ max-height: 30vh;
 
 #port2{
     padding: 5px;
-    word-spacing: 1px;
+    background-position: center;
 }
 
-#contact h1{
+#cont h1{
 align-content: center;
 text-align: center;
 color: white;
 }
 
-.contact{
-    background-image: url(./background/c_image.jpg);
-    padding: 20%;
+.section7{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+
+
+.section8{
+    padding: 10px;
+}
+
+.btn-outline-warning:hover{
+    background-color: green !important;
+}
+
+#contacts{
+    background-image: url('./background/c_image.jpg');
+    background-position: center;
+}
+
+#delani{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: medium;
+}
+
+#par {
+    text-align: center;
+    align-content: center;
+    align-items: center;
 }
