@@ -47,7 +47,7 @@ I have purely appllied ;
 
 ## Link to my website Project
 
-[click Here](/)
+[click Here](https://kingsly62.github.io/Delani-Studio-Project/)
 
 ## Support and contact details
 
