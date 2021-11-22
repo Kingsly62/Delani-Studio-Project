@@ -100,7 +100,7 @@ align-content: center;
 text-align: center;
 color: black;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-size: medium;
+font-size: large;
 }
 
 #port1{
@@ -156,4 +156,33 @@ color: white;
     text-align: center;
     align-content: center;
     align-items: center;
+}
+
+.test{
+    background-color: transparent;
+
+    
+}
+
+#name,#email,#message{
+    border: 2px solid white !important;
+    background: transparent !important;
+    color: white !important;
+}
+
+::-webkit-input-placeholder{
+    color: white !important;
+}
+
+:-ms-input-placeholder{
+    color: white !important;
+}
+
+::placeholder{
+color: white !important;
+
+}
+
+#contact-fm{
+    background-color: transparent;
 }
