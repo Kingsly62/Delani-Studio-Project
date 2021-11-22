@@ -27,8 +27,8 @@ $('#contact-fm').submit(
       }  
     );  
     $( "#develop.fade" ).hover(function() {  
-      $( this ).fadeOut( 100 );  
-      $( this ).fadeIn( 500 );  
+      $( this ).fadeOut( 1000 );  
+      $( this ).fadeIn( 5000 );  
     });  
 
 
@@ -41,8 +41,8 @@ $('#contact-fm').submit(
         }  
       );  
       $( "#design.fade" ).hover(function() {  
-        $( this ).fadeOut( 100 );  
-        $( this ).fadeIn( 500 );  
+        $( this ).fadeOut( 1000 );  
+        $( this ).fadeIn( 5000 );  
       });  
   
 
@@ -54,8 +54,8 @@ $('#contact-fm').submit(
         }  
       );  
       $( "#product.fade" ).hover(function() {  
-        $( this ).fadeOut( 100 );  
-        $( this ).fadeIn( 500 );  
+        $( this ).fadeOut( 1000 );  
+        $( this ).fadeIn( 5000 );  
       });  
   
       $( "#delani" ).hover(  
@@ -66,7 +66,7 @@ $('#contact-fm').submit(
         }  
       );  
       $( "#delani.fade" ).hover(function() {  
-        $( this ).fadeOut( 100 );  
-        $( this ).fadeIn( 500 );  
+        $( this ).fadeOut( 1000 );  
+        $( this ).fadeIn( 5000 );  
       });  
-  
+      
