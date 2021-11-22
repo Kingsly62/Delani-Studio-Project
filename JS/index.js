@@ -58,3 +58,15 @@ $('#contact-fm').submit(
         $( this ).fadeIn( 500 );  
       });  
   
+      $( "#delani" ).hover(  
+        function() {  
+          $( this ).append( $( "<span><br>Quote::<br>TECHNOLOGY IS OUR PASSSION</span>" ) );  
+        }, function() {  
+          $( this ).find( "span:last" ).remove();  
+        }  
+      );  
+      $( "#delani.fade" ).hover(function() {  
+        $( this ).fadeOut( 100 );  
+        $( this ).fadeIn( 500 );  
+      });  
+  
