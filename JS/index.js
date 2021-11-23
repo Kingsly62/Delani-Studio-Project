@@ -70,8 +70,3 @@ $('#contact-fm').submit(
         $( this ).fadeIn( 5000 );  
       });  
       
-    //$(document).ready(function(){
-      //$("button").click(function(){
-        //alert("Hello here")
-      //});
-    //});
