@@ -1,5 +1,5 @@
 
-$('#contact-fm').submit(
+$('button').click(
     function(){
         let name = $('#name').val()
         let email = $('#email').val()
