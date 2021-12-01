@@ -1,24 +1,24 @@
 
-$('button').click(
-    function(){
-        let name = $('#name').val()
-        let email = $('#email').val()
-        let message = $('#message').val()
-        let myForm = $("#contact-fm")[0]
-        console.log(myForm);
+//$('button').click(
+    //function(){
+       // let name = $('#name').val()
+       // let email = $('#email').val()
+        //let message = $('#message').val()
+        //let myForm = $("#contact-fm")[0]
+        //console.log(myForm);
 
-        if (!name || !email || !message){
-            alert("Fill all the fields")
-            return false;
-        }
-        else{
-            myForm.method = 'post';
-            myForm.action = 'action="https://gmail.us20.list-manage.com/subscribe/post?u=fc57d1e00241c0ce659e935a8&amp;id=76fecc8708" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>'
-            alert("Form submitted succesfully")
-            return true;
-        }
-    });
-    
+        //if (!name || !email || !message){
+         //   alert("Fill all the fields")
+         //   return false;
+        //}
+        //else{
+        //    myForm.method = 'post';
+          //  myForm.action = 'action="https://gmail.us20.list-manage.com/subscribe/post?u=fc57d1e00241c0ce659e935a8&amp;id=76fecc8708" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>'
+         //   alert("Form submitted succesfully")
+         //   return true;
+        
+   // });
+   // function(){
     $( "#develop" ).hover(  
       function() {  
         $( this ).append( $( "<span><br>All engineers are fluent enterprise,mobile<br>and web development technologies.<br><br>They collaborate with your team  to write ,and improve<br>code on a daily basis, using proven practice such as<br>test-driven development and pair programming.</span>" ) );  
